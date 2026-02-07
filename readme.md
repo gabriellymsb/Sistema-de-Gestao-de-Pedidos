@@ -75,7 +75,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 ## 📋 Menu do Sistema
 
 ```
-=== Sistema de Gestao de Pedidos (v2.0) ===
+=== Sistema de Gestao de Pedidos ===
 1. Cadastrar Cliente Fisico
 2. Cadastrar Cliente Juridico
 3. Cadastrar Produto
@@ -120,4 +120,5 @@ g++ -std=c++17 main.cpp -o sistema
 Projeto desenvolvido pelos alunos Gabrielly Maria, Isabela Oliveira e Matheo Duarte durante a matéria de Programação Orientada a Objetos.
 
 ---
+
 
