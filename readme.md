@@ -68,7 +68,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 * `operator+=` para reposição de estoque de produtos
 
 ---
-## 📋 Menu do Sistema
+## Menu do Sistema
 ```
 === Sistema de Gestao de Pedidos ===
 1. Cadastrar Cliente Fisico
@@ -112,6 +112,7 @@ g++ -std=c++17 main.cpp -o sistema
 Projeto desenvolvido pelos alunos Gabrielly Maria, Isabela Oliveira e Matheo Duarte durante a matéria de Programação Orientada a Objetos.
 
 ---
+
 
 
 
