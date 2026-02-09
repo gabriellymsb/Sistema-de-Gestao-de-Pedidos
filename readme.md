@@ -5,8 +5,7 @@ Este projeto é um **Sistema de Gestão de Pedidos** desenvolvido em **C++**, ut
 O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos**, **produtos**, **pedidos** e **controle de estoque**, tudo por meio de um **menu interativo em terminal**.
 
 ---
-
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 * Aplicar conceitos fundamentais e avançados de POO em C++
 * Utilizar `std::unique_ptr` para gerenciamento seguro de memória
@@ -16,8 +15,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 * Desenvolver um sistema modular e extensível
 
 ---
-
-## 🛠️ Funcionalidades
+## Funcionalidades
 
 * 📌 Cadastro de **Cliente Físico** (CPF)
 * 📌 Cadastro de **Cliente Jurídico** (CNPJ)
@@ -28,8 +26,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 * 📌 Tratamento de erros com mensagens claras ao usuário
 
 ---
-
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 ├── main.cpp
 ├── cliente.h
@@ -44,7 +41,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 ```
 ---
 
-## 🧠 Principais Conceitos Utilizados
+## Principais Conceitos Utilizados
 
 ### 🔹 Programação Orientada a Objetos
 
@@ -71,9 +68,7 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 * `operator+=` para reposição de estoque de produtos
 
 ---
-
 ## 📋 Menu do Sistema
-
 ```
 === Sistema de Gestao de Pedidos ===
 1. Cadastrar Cliente Fisico
@@ -89,14 +84,13 @@ O sistema permite o cadastro e gerenciamento de **clientes físicos e jurídicos
 
 ---
 
-## ▶️ Como Compilar e Executar
+## Compilar e Executar
 
 ### Compilação (Linux / g++)
 
 ```bash
 g++ -std=c++17 main.cpp -o sistema
 ```
-
 > Certifique-se de que todos os arquivos `.h` e `.cpp` estejam no mesmo diretório.
 
 ### Execução
@@ -104,21 +98,20 @@ g++ -std=c++17 main.cpp -o sistema
 ```bash
 ./sistema
 ```
-
 ---
 
-## ⚠️ Observações Importantes
+## Observações Importantes
 
 * O sistema roda totalmente em **modo texto (terminal)**
 * As entradas do usuário são validadas por funções auxiliares em `utils.h`
 * Erros como índices inválidos, produtos inexistentes ou falta de estoque são tratados por exceções
 
 ---
-
-## 👩‍💻 Autoria
+## Autoria
 
 Projeto desenvolvido pelos alunos Gabrielly Maria, Isabela Oliveira e Matheo Duarte durante a matéria de Programação Orientada a Objetos.
 
 ---
+
 
 
